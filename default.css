@@ -7,24 +7,39 @@
   "main main main"
   "footer footer footer";
   grid-template-columns: 120px 4fr 1fr;
-  grid-template-rows: 160px 120px 1fr 80px;
+  grid-template-rows: 160px 40px 1fr 80px;
 }
 .container > div {
-  border: 1px dashed #888;
 }
 
 .header {
   grid-area: header;
-  background-color: #9966cc;
+  background-color: #9c7ca5;
   color: white;
   text-align: center;
 }
 .navbar {
   grid-area: navbar;
+  overflow: hidden;
+  background-color: #776258;
+}
+.navbar a{
+  background-color: #594f3b;
+  color: white;
+  text-align: center;
+  float: left;
+  padding: 14px 14px;
+  display: block;
+}
+.navbar a:hover{
+  background-color: #776258;
 }
 .main {
   grid-area: main;
+  background-color: #adb2d3;
 }
 .footer {
   grid-area: footer;
+  background-color: #896279;
+  color: white;
 }
