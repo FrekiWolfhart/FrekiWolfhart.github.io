@@ -8,38 +8,39 @@
   "footer footer footer";
   grid-template-columns: 120px 4fr 1fr;
   grid-template-rows: 160px 40px 1fr 80px;
+  color: #8399A2;
 }
 .container > div {
 }
 
 .header {
   grid-area: header;
-  background-color: #9c7ca5;
-  color: white;
+  background-color: #8399a2;
+  color: #dce3e6;
   text-align: center;
 }
 .navbar {
   grid-area: navbar;
   overflow: hidden;
-  background-color: #776258;
+  background-color: #95a8b0;
 }
 .navbar a{
-  background-color: #594f3b;
-  color: white;
+  background-color: #a7b7bd;
   text-align: center;
   float: left;
   padding: 14px 14px;
   display: block;
+  text-decoration: none;
+  color: #8399A2;
 }
 .navbar a:hover{
-  background-color: #776258;
+  background-color: #95a8b0;
 }
 .main {
   grid-area: main;
-  background-color: #adb2d3;
+  background-color: #cad4d8;
 }
 .footer {
   grid-area: footer;
-  background-color: #896279;
-  color: white;
+  background-color: #b9c6cb;
 }
