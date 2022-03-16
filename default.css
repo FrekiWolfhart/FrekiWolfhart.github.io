@@ -1,3 +1,7 @@
+body {
+  background-color: #cad4d8;
+}
+
 .container {
   display: grid;
   width: 100%;
@@ -8,15 +12,12 @@
   "footer footer footer";
   grid-template-columns: 120px 4fr 1fr;
   grid-template-rows: 160px 40px 1fr 80px;
-  color: #8399a2;
-}
-.container > div {
+  color: #dce3e6;
 }
 
 .header {
   grid-area: header;
   background-color: #8399a2;
-  color: #dce3e6;
   text-align: center;
 }
 .navbar {
@@ -31,14 +32,14 @@
   padding: 14px 14px;
   display: block;
   text-decoration: none;
-  color: #8399a2;
+  color: #dce3e6;
 }
 .navbar a:hover{
   background-color: #95a8b0;
 }
 .main {
   grid-area: main;
-  background-color: #cad4d8;
+  color: #8399a2;
 }
 .footer {
   grid-area: footer;
